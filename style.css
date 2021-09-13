@@ -1,0 +1,60 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.todos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    border: 5px rgb(207, 207, 207) solid;
+    width: 800px;
+
+}
+.barra {
+    background-color: rgb(53, 164, 255);
+    height: 100px;
+}
+.photo {
+    border-radius: 50%;
+    border: 5px rgb(207, 207, 207) solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+
+}
+
+.textos {
+    padding: 40px 0px 0px 40px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+}
+img {
+    height: 25px;
+}
+h1 {
+    margin: 20px 0px 0px;
+}
+.p1 {
+    margin: 0px 0px 10px 0px;
+    text-align:left    
+}
+.pin {
+    position: relative;
+    top: 5px;
+}
+.edit {
+    text-decoration: underline;
+    color: blue;
+    margin-left: 10px;
+}
+.gear {
+    position: relative;
+    left: -8px;
+}
